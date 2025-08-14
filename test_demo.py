@@ -66,7 +66,7 @@ def simulate_model_responses(df):
 
 def main():
     """Main demo function"""
-    print("🎯 Gemma-3 270M Saudi Benchmark Demo")
+    print("🎯 Gemma-3 270M GGUF Saudi Benchmark Demo")
     print("=" * 40)
     
     # Test benchmark loading
@@ -78,7 +78,7 @@ def main():
         results = simulate_model_responses(df)
         
         print("\n✅ Demo completed successfully!")
-        print("🔄 To run with actual Gemma-3 270M model:")
+        print("🔄 To run with actual Gemma-3 270M GGUF model:")
         print("   1. Run: ./setup.sh")
         print("   2. Run: source venv/bin/activate")
         print("   3. Run: python gemma3_saudi_benchmark.py")

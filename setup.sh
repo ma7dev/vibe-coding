@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "🚀 Setting up Gemma-3 270M Saudi Benchmark Environment"
+echo "🚀 Setting up Gemma-3 270M GGUF Saudi Benchmark Environment"
 echo "================================================="
 
 # Check if Python is available
@@ -39,7 +39,7 @@ pip install datasets>=2.14.0
 pip install accelerate>=0.25.0
 pip install peft>=0.7.0
 pip install trl>=0.7.0
-# bitsandbytes not needed for 270M model
+pip install bitsandbytes>=0.41.0
 
 # Install Unsloth
 echo "🔄 Installing Unsloth..."

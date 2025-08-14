@@ -5,5 +5,5 @@ datasets>=2.14.0
 accelerate>=0.25.0
 peft>=0.7.0
 trl>=0.7.0
-# bitsandbytes>=0.41.0  # Not needed for 270M model
+bitsandbytes>=0.41.0  # Needed for GGUF quantization
 unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git
