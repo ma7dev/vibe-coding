@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "🚀 Setting up Gemma-3 Saudi Benchmark Environment"
+echo "🚀 Setting up Gemma-3 270M Saudi Benchmark Environment"
 echo "================================================="
 
 # Check if Python is available
@@ -27,9 +27,9 @@ source venv/bin/activate
 echo "🔄 Upgrading pip..."
 pip install --upgrade pip
 
-# Install PyTorch first (with CUDA support if available)
+# Install PyTorch first (CPU version is sufficient for 270M model)
 echo "🔄 Installing PyTorch..."
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install torch torchvision torchaudio
 
 # Install other requirements
 echo "🔄 Installing other dependencies..."
@@ -39,7 +39,7 @@ pip install datasets>=2.14.0
 pip install accelerate>=0.25.0
 pip install peft>=0.7.0
 pip install trl>=0.7.0
-pip install bitsandbytes>=0.41.0
+# bitsandbytes not needed for 270M model
 
 # Install Unsloth
 echo "🔄 Installing Unsloth..."

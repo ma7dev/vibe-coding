@@ -1,19 +1,19 @@
-# Gemma-3 Saudi LLMs Benchmark Runner
+# Gemma-3 270M Saudi LLMs Benchmark Runner
 
-A simple Python script to run Google's Gemma-3 model on the [Pico-Saudi-LLMs-Benchmark](https://github.com/mznmel/Pico-Saudi-LLMs-Benchmark) dataset using Unsloth for optimized inference.
+A simple Python script to run Google's Gemma-3 270M model on the [Pico-Saudi-LLMs-Benchmark](https://github.com/mznmel/Pico-Saudi-LLMs-Benchmark) dataset using Unsloth for optimized inference.
 
 ## Overview
 
 This script:
 - Loads the Pico-Saudi-LLMs-Benchmark dataset (56 questions in Arabic covering various topics)
-- Runs Gemma-3 model using Unsloth for efficient inference
+- Runs Gemma-3 270M model using Unsloth for efficient inference
 - Generates responses to all benchmark questions
 - Saves results to a CSV file for analysis
 
 ## Features
 
 - ✅ **Optimized Performance**: Uses Unsloth for faster inference and reduced memory usage
-- ✅ **4-bit Quantization**: Efficient memory usage with 4-bit model loading
+- ✅ **Lightweight Model**: 270M parameters - runs efficiently on modest hardware
 - ✅ **Fallback Support**: Automatically falls back to standard transformers if Unsloth fails
 - ✅ **Progress Tracking**: Real-time progress updates during benchmark execution
 - ✅ **Error Handling**: Robust error handling with informative messages
@@ -58,9 +58,10 @@ python gemma3_saudi_benchmark.py
 ## Requirements
 
 - Python 3.8+
-- CUDA-compatible GPU (recommended, 8GB+ VRAM)
-- ~10GB free disk space for model downloads
+- 2GB+ RAM (CPU inference sufficient for 270M model)
+- ~2GB free disk space for model downloads
 - Internet connection for initial model download
+- GPU optional but recommended for faster inference
 
 ## Dataset
 
@@ -80,8 +81,8 @@ The script uses the **Pico-Saudi-LLMs-Benchmark v0.01** which contains:
 
 ## Model Configuration
 
-- **Model**: `unsloth/gemma-2-9b-it` (9B parameters)
-- **Quantization**: 4-bit for memory efficiency
+- **Model**: `unsloth/gemma-2-270m-it` (270M parameters)
+- **Precision**: Float16 for efficiency
 - **Max Sequence Length**: 2048 tokens
 - **Generation Settings**:
   - Max new tokens: 256
@@ -119,23 +120,23 @@ results = run_benchmark(model, tokenizer, questions_df, "my_results.csv")
 ## System Requirements
 
 ### Minimum
-- 8GB RAM
-- 4GB GPU VRAM
-- 10GB free disk space
+- 2GB RAM
+- 2GB free disk space
+- CPU-only (runs fine on modest hardware)
 
 ### Recommended
-- 16GB+ RAM
-- 12GB+ GPU VRAM (for faster inference)
-- 20GB+ free disk space
+- 4GB+ RAM
+- GPU with 2GB+ VRAM (for faster inference)
+- 5GB+ free disk space
 
 ## Troubleshooting
 
 ### Common Issues
 
-1. **CUDA Out of Memory**
-   - Reduce batch size or use smaller model variant
-   - Enable gradient checkpointing
-   - Use CPU-only mode (slower)
+1. **Memory Issues**
+   - The 270M model should run on most modern computers
+   - Use CPU-only mode if GPU issues occur
+   - Close other applications to free up RAM
 
 2. **Model Download Fails**
    - Check internet connection
@@ -148,9 +149,10 @@ results = run_benchmark(model, tokenizer, questions_df, "my_results.csv")
 
 ### Performance Tips
 
-- **GPU**: Use CUDA-compatible GPU for 5-10x speedup
-- **Memory**: Close other applications to free up VRAM
+- **GPU**: Use GPU for 2-3x speedup over CPU
+- **Memory**: Close other applications to free up RAM
 - **Storage**: Use SSD for faster model loading
+- **Batch Processing**: The 270M model is fast enough for real-time inference
 
 ## File Structure
 
@@ -172,7 +174,7 @@ results = run_benchmark(model, tokenizer, questions_df, "my_results.csv")
 ## Credits
 
 - **Dataset**: [Pico-Saudi-LLMs-Benchmark](https://github.com/mznmel/Pico-Saudi-LLMs-Benchmark) by mznmel
-- **Model**: Gemma-3 by Google
+- **Model**: Gemma-3 270M by Google
 - **Optimization**: [Unsloth](https://github.com/unslothai/unsloth) for efficient inference
 
 ## License

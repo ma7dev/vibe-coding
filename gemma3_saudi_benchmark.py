@@ -36,40 +36,41 @@ def load_benchmark_data(csv_path):
         return None
 
 def setup_gemma3_model():
-    """Setup Gemma-3 model using Unsloth"""
+    """Setup Gemma-3 270M model using Unsloth"""
     try:
         from unsloth import FastLanguageModel
         
-        print("🔄 Loading Gemma-3 model using Unsloth...")
+        print("🔄 Loading Gemma-3 270M model using Unsloth...")
         
         # Load model with Unsloth optimizations
         model, tokenizer = FastLanguageModel.from_pretrained(
-            model_name="unsloth/gemma-2-9b-it",  # Using Gemma-2 as Gemma-3 may not be available yet
+            model_name="unsloth/gemma-2-270m-it",  # Using 270M model for efficiency
             max_seq_length=2048,
             dtype=None,  # Auto detection
-            load_in_4bit=True,  # Use 4-bit quantization for memory efficiency
+            load_in_4bit=False,  # 270M model doesn't need quantization
         )
         
         # Enable inference mode
         FastLanguageModel.for_inference(model)
         
-        print("✓ Gemma-3 model loaded successfully")
+        print("✓ Gemma-3 270M model loaded successfully")
         return model, tokenizer
         
     except Exception as e:
-        print(f"❌ Error loading model: {e}")
+        print(f"❌ Error loading model with Unsloth: {e}")
         print("Falling back to standard transformers...")
         
         try:
             from transformers import AutoModelForCausalLM, AutoTokenizer
             
-            model_name = "google/gemma-2-9b-it"
+            # Try Gemma 2 270M first
+            model_name = "google/gemma-2-270m-it"
+            print(f"🔄 Loading {model_name} with transformers...")
             tokenizer = AutoTokenizer.from_pretrained(model_name)
             model = AutoModelForCausalLM.from_pretrained(
                 model_name,
-                torch_dtype=torch.bfloat16,
-                device_map="auto",
-                load_in_4bit=True
+                torch_dtype=torch.float16,
+                device_map="auto"
             )
             
             print("✓ Fallback model loaded successfully")
@@ -158,7 +159,7 @@ def run_benchmark(model, tokenizer, questions_df, output_file="gemma3_results.cs
 
 def main():
     """Main function"""
-    print("🚀 Gemma-3 Saudi LLMs Benchmark Runner")
+    print("🚀 Gemma-3 270M Saudi LLMs Benchmark Runner")
     print("=" * 50)
     
     # Check if running with proper setup
@@ -180,7 +181,8 @@ def main():
         return
     
     # Run benchmark
-    print(f"🎯 Running benchmark with system prompt: 'You must provide all your responses exclusively in Arabic'")
+    print(f"🎯 Running benchmark with Gemma-3 270M")
+    print(f"📋 System prompt: 'You must provide all your responses exclusively in Arabic'")
     
     results_df = run_benchmark(model, tokenizer, questions_df)
     
