@@ -1,0 +1,497 @@
+[
+  {
+    "question_id": "5d049",
+    "question_category": "history",
+    "question": "اشرح الدور التاريخي لمدينة الدرعية في تأسيس الدولة السعودية الأولى.",
+    "response": "تُعتبر هذه من أهم الأحداث في التاريخ السعودي، حيث شكلت نقطة تحول مهمة في تطور المملكة العربية السعودية.",
+    "timestamp": "2025-08-14T17:11:05.776268",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "e24f1",
+    "question_category": "history",
+    "question": "ما أهمية مدينة مكة المكرمة دينياً وتاريخياً؟",
+    "response": "هذا الموضوع له جذور تاريخية عميقة في شبه الجزيرة العربية، ويعكس التراث الثقافي الغني للمنطقة.",
+    "timestamp": "2025-08-14T17:11:05.776309",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "e8652",
+    "question_category": "history",
+    "question": "من هو الملك عبد العزيز وما دوره في توحيد المملكة العربية السعودية؟",
+    "response": "يرجع تاريخ هذا الحدث إلى عهد الملك عبد العزيز آل سعود، الذي أسس المملكة العربية السعودية الحديثة.",
+    "timestamp": "2025-08-14T17:11:05.776314",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "d20b9",
+    "question_category": "history",
+    "question": "اشرح مفهوم 'يوم التأسيس' ودلالاته في السعودية.",
+    "response": "يرجع تاريخ هذا الحدث إلى عهد الملك عبد العزيز آل سعود، الذي أسس المملكة العربية السعودية الحديثة.",
+    "timestamp": "2025-08-14T17:11:05.776318",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "7d8bf",
+    "question_category": "history",
+    "question": "ما هي معركة 'السبلة' وأهميتها في التاريخ السعودي؟",
+    "response": "هذا الموضوع له جذور تاريخية عميقة في شبه الجزيرة العربية، ويعكس التراث الثقافي الغني للمنطقة.",
+    "timestamp": "2025-08-14T17:11:05.776321",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "1e279",
+    "question_category": "history",
+    "question": "ما هو تاريخ النقود والعملات في السعودية؟",
+    "response": "تُعتبر هذه من أهم الأحداث في التاريخ السعودي، حيث شكلت نقطة تحول مهمة في تطور المملكة العربية السعودية.",
+    "timestamp": "2025-08-14T17:11:05.776324",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "2fe27",
+    "question_category": "culture",
+    "question": "اشرح مفهوم 'العرضة' ودورها في المناسبات الوطنية السعودية.",
+    "response": "تحتل هذه العادة مكانة خاصة في الثقافة السعودية، وتُمارس في المناسبات الوطنية والاجتماعية المهمة.",
+    "timestamp": "2025-08-14T17:11:05.776327",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "4d99e",
+    "question_category": "culture",
+    "question": "اذكر أهم الأكلات التقليدية في المطبخ السعودي ووصفها.",
+    "response": "تُعد هذه من أهم التقاليد الثقافية في المملكة العربية السعودية، وهي جزء لا يتجزأ من الهوية الوطنية.",
+    "timestamp": "2025-08-14T17:11:05.776332",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "708d3",
+    "question_category": "culture",
+    "question": "ما دور الضيافة في الثقافة العربية والسعودية؟",
+    "response": "تحتل هذه العادة مكانة خاصة في الثقافة السعودية، وتُمارس في المناسبات الوطنية والاجتماعية المهمة.",
+    "timestamp": "2025-08-14T17:11:05.776335",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "d4373",
+    "question_category": "culture",
+    "question": "كيف يتم استقبال الضيوف وتقديم القهوة العربية؟",
+    "response": "تُعد هذه من أهم التقاليد الثقافية في المملكة العربية السعودية، وهي جزء لا يتجزأ من الهوية الوطنية.",
+    "timestamp": "2025-08-14T17:11:05.776338",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "574f4",
+    "question_category": "culture",
+    "question": "ما دور الإبل في الثقافة والتراث السعودي؟",
+    "response": "يعكس هذا التقليد القيم الأصيلة للمجتمع السعودي، ويُورث من جيل إلى جيل كجزء من التراث الشعبي.",
+    "timestamp": "2025-08-14T17:11:05.776343",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "e3d57",
+    "question_category": "literature",
+    "question": "اذكر خصائص الشعر النبطي وأهميته في الثقافة السعودية.",
+    "response": "هذا العمل الأدبي له مكانة مميزة في الأدب العربي المعاصر، ويُدرس في الجامعات السعودية.",
+    "timestamp": "2025-08-14T17:11:05.776346",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "b32e7",
+    "question_category": "literature",
+    "question": "من هو غازي القصيبي وما إسهاماته في الأدب السعودي؟",
+    "response": "يتناول هذا الموضوع قضايا مهمة في الأدب السعودي الحديث، ويعكس تطور الفكر الأدبي في المنطقة.",
+    "timestamp": "2025-08-14T17:11:05.776348",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "37f57",
+    "question_category": "literature",
+    "question": "ما هي أهم الموضوعات التي تناولها الأدب السعودي المعاصر؟",
+    "response": "يتناول هذا الموضوع قضايا مهمة في الأدب السعودي الحديث، ويعكس تطور الفكر الأدبي في المنطقة.",
+    "timestamp": "2025-08-14T17:11:05.776351",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "14ff9",
+    "question_category": "literature",
+    "question": "اذكر بعض الشعراء السعوديين البارزين في الوقت الحالي.",
+    "response": "هذا العمل الأدبي له مكانة مميزة في الأدب العربي المعاصر، ويُدرس في الجامعات السعودية.",
+    "timestamp": "2025-08-14T17:11:05.776353",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "72bee",
+    "question_category": "literature",
+    "question": "اذكر بعض أمثلة لكتاب رأي سعوديين مع اتقباسات لبعض أبرز مقالاتهم",
+    "response": "يتناول هذا الموضوع قضايا مهمة في الأدب السعودي الحديث، ويعكس تطور الفكر الأدبي في المنطقة.",
+    "timestamp": "2025-08-14T17:11:05.776356",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "a242d",
+    "question_category": "localDialects",
+    "question": "اشرح الفرق بين اللهجة النجدية واللهجة الجنوبية في السعودية.",
+    "response": "تختلف اللهجات في أنحاء المملكة، وهذا المثل يعكس حكمة الأجداد والتراث الشعبي الأصيل.",
+    "timestamp": "2025-08-14T17:11:05.776359",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "e000b",
+    "question_category": "localDialects",
+    "question": "اذكر بعض الأمثال الشعبية في اللهجة السعودية وفسرها.",
+    "response": "هذا التعبير شائع في اللهجة السعودية، ويُستخدم في المحادثات اليومية بين أفراد المجتمع.",
+    "timestamp": "2025-08-14T17:11:05.776362",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "55280",
+    "question_category": "localDialects",
+    "question": "ترجم الجملة التالية إلى اللغة العربية: 'Unity is strength'",
+    "response": "تختلف اللهجات في أنحاء المملكة، وهذا المثل يعكس حكمة الأجداد والتراث الشعبي الأصيل.",
+    "timestamp": "2025-08-14T17:11:05.776364",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "8298b",
+    "question_category": "localDialects",
+    "question": "اشرح دور الشعر النبطي في حفظ اللهجات المحلية.",
+    "response": "تختلف اللهجات في أنحاء المملكة، وهذا المثل يعكس حكمة الأجداد والتراث الشعبي الأصيل.",
+    "timestamp": "2025-08-14T17:11:05.776367",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "e62ef",
+    "question_category": "localDialects",
+    "question": "كيف تختلف المفردات بين مناطق السعودية المختلفة؟",
+    "response": "يُقال هذا المثل في مناطق مختلفة من السعودية، ويحمل معاني عميقة تعكس خبرة الحياة.",
+    "timestamp": "2025-08-14T17:11:05.776371",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "d7f56",
+    "question_category": "localDialects",
+    "question": "ترجم وفسر المثل: اللي ما يعرف الصقر يشويه",
+    "response": "هذا التعبير شائع في اللهجة السعودية، ويُستخدم في المحادثات اليومية بين أفراد المجتمع.",
+    "timestamp": "2025-08-14T17:11:05.776374",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "22214",
+    "question_category": "reasoning",
+    "question": "ما هو العدد الذي إذا ضربته في نفسه وأضفت إليه 2 يصبح الناتج 10؟",
+    "response": "لحل هذه المسألة، نحتاج إلى تطبيق المنطق الرياضي والتفكير النقدي للوصول إلى الإجابة الصحيحة.",
+    "timestamp": "2025-08-14T17:11:05.776376",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "a78df",
+    "question_category": "reasoning",
+    "question": "إذا كان أحمد أكبر من سارة وسارة أكبر من ليلى، فمن الأكبر بينهم؟",
+    "response": "يمكن حل هذا السؤال باستخدام خطوات منطقية واضحة، والإجابة هي: [حل رياضي]",
+    "timestamp": "2025-08-14T17:11:05.776379",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "3a7da",
+    "question_category": "reasoning",
+    "question": "لديك ثلاث تفاحات، أكلت تفاحة واحدة. كم تفاحة تبقت؟",
+    "response": "هذا النوع من الأسئلة يتطلب تحليلاً دقيقاً للمعطيات، والجواب الصحيح يعتمد على فهم العلاقات المنطقية.",
+    "timestamp": "2025-08-14T17:11:05.776381",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "3b99a",
+    "question_category": "reasoning",
+    "question": "إذا كان اليوم هو الثلاثاء، فما هو اليوم بعد خمسة أيام؟",
+    "response": "هذا النوع من الأسئلة يتطلب تحليلاً دقيقاً للمعطيات، والجواب الصحيح يعتمد على فهم العلاقات المنطقية.",
+    "timestamp": "2025-08-14T17:11:05.776384",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "c4744",
+    "question_category": "reasoning",
+    "question": "إذا كان هناك 10 طيور على الشجرة، وأطلق صياد النار على 3، كم طيرًا سيبقى؟",
+    "response": "هذا النوع من الأسئلة يتطلب تحليلاً دقيقاً للمعطيات، والجواب الصحيح يعتمد على فهم العلاقات المنطقية.",
+    "timestamp": "2025-08-14T17:11:05.776388",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "ffce7",
+    "question_category": "reasoning",
+    "question": "ما هو الشيء الذي إذا أخذت منه زاد؟",
+    "response": "يمكن حل هذا السؤال باستخدام خطوات منطقية واضحة، والإجابة هي: [حل رياضي]",
+    "timestamp": "2025-08-14T17:11:05.776391",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "2655d",
+    "question_category": "reasoning",
+    "question": "إذا كان هناك 7 أطفال في غرفة وكل واحد لديه 7 ألعاب، كم عدد الألعاب الكلي؟",
+    "response": "هذا النوع من الأسئلة يتطلب تحليلاً دقيقاً للمعطيات، والجواب الصحيح يعتمد على فهم العلاقات المنطقية.",
+    "timestamp": "2025-08-14T17:11:05.776393",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "cf5f4",
+    "question_category": "reasoning",
+    "question": "إذا كانت لديك زجاجة نصفها ممتلئ، وأضفت إليها نفس الكمية من الماء، فكم نسبة الامتلاء الآن؟",
+    "response": "يمكن حل هذا السؤال باستخدام خطوات منطقية واضحة، والإجابة هي: [حل رياضي]",
+    "timestamp": "2025-08-14T17:11:05.776396",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "b3bbd",
+    "question_category": "footballSport",
+    "question": "ما هي الأندية التي تشارك في الدوري السعودي للمحترفين؟",
+    "response": "الدوري السعودي للمحترفين شهد تطوراً كبيراً في السنوات الأخيرة، مع انضمام نجوم عالميين للأندية السعودية.",
+    "timestamp": "2025-08-14T17:11:05.776400",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "d935d",
+    "question_category": "footballSport",
+    "question": "اذكر أسماء أبرز اللاعبين الأجانب الذين يلعبون في الدوري السعودي حالياً.",
+    "response": "كرة القدم السعودية تشهد نهضة حقيقية، مع استثمارات ضخمة في البنية التحتية واستقطاب اللاعبين المميزين.",
+    "timestamp": "2025-08-14T17:11:05.776402",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "186f3",
+    "question_category": "footballSport",
+    "question": "ما هي الفرق السعودية التي حققت دوري أبطال آسيا؟ وما هي الأعوام التي فازوا بها؟",
+    "response": "الدوري السعودي للمحترفين شهد تطوراً كبيراً في السنوات الأخيرة، مع انضمام نجوم عالميين للأندية السعودية.",
+    "timestamp": "2025-08-14T17:11:05.776405",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "0a873",
+    "question_category": "footballSport",
+    "question": "صف نظام الصعود والهبوط في الدوري السعودي. كم عدد الفرق التي تهبط وتصعد كل موسم؟",
+    "response": "الأندية السعودية الكبرى مثل الهلال والنصر والاتحاد لها تاريخ عريق في كرة القدم العربية والآسيوية.",
+    "timestamp": "2025-08-14T17:11:05.776408",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "3943a",
+    "question_category": "footballSport",
+    "question": "ما هي أكبر مباراة ديربي في السعودية؟ ومن هما الفريقان المشاركان فيها؟",
+    "response": "كرة القدم السعودية تشهد نهضة حقيقية، مع استثمارات ضخمة في البنية التحتية واستقطاب اللاعبين المميزين.",
+    "timestamp": "2025-08-14T17:11:05.776410",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "98fdb",
+    "question_category": "footballSport",
+    "question": "كيف يؤثر وجود اللاعبين الأجانب البارزين في الدوري السعودي على مستوى المنافسة؟",
+    "response": "الدوري السعودي للمحترفين شهد تطوراً كبيراً في السنوات الأخيرة، مع انضمام نجوم عالميين للأندية السعودية.",
+    "timestamp": "2025-08-14T17:11:05.776413",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "8f77c",
+    "question_category": "footballSport",
+    "question": "كيف تؤثر الخصخصة على الأندية السعودية؟ وما هي التغييرات التي حدثت نتيجة لهذه السياسة؟",
+    "response": "الأندية السعودية الكبرى مثل الهلال والنصر والاتحاد لها تاريخ عريق في كرة القدم العربية والآسيوية.",
+    "timestamp": "2025-08-14T17:11:05.776415",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "391dc",
+    "question_category": "footballSport",
+    "question": "اذكر أسماء الملاعب الرئيسية للأندية الكبرى في الدوري السعودي، مثل الهلال والنصر والاتحاد.",
+    "response": "الدوري السعودي للمحترفين شهد تطوراً كبيراً في السنوات الأخيرة، مع انضمام نجوم عالميين للأندية السعودية.",
+    "timestamp": "2025-08-14T17:11:05.776418",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "6b4e9",
+    "question_category": "music&art",
+    "question": "من هو طلال مداح وما تأثيره على الموسيقى السعودية؟",
+    "response": "الفن السعودي يعكس التراث الثقافي الغني للمملكة، ويجمع بين الأصالة والمعاصرة بطريقة مميزة.",
+    "timestamp": "2025-08-14T17:11:05.776420",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "9e413",
+    "question_category": "music&art",
+    "question": "ما الأهمية الثقافية للخط العربي في الفن الإسلامي؟",
+    "response": "الفن السعودي يعكس التراث الثقافي الغني للمملكة، ويجمع بين الأصالة والمعاصرة بطريقة مميزة.",
+    "timestamp": "2025-08-14T17:11:05.776423",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "a4170",
+    "question_category": "music&art",
+    "question": "اشرح تطور السينما في السعودية في السنوات الأخيرة.",
+    "response": "هذا الفنان له إسهامات مهمة في الثقافة السعودية، وأعماله تُدرس في معاهد الموسيقى والفنون.",
+    "timestamp": "2025-08-14T17:11:05.776427",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "0401d",
+    "question_category": "music&art",
+    "question": "من هو محمد عبده وما إسهاماته في الموسيقى العربية؟",
+    "response": "الفن السعودي يعكس التراث الثقافي الغني للمملكة، ويجمع بين الأصالة والمعاصرة بطريقة مميزة.",
+    "timestamp": "2025-08-14T17:11:05.776433",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "e50c7",
+    "question_category": "music&art",
+    "question": "اذكر بعض الفنانين السعوديين البارزين في الفن التشكيلي.",
+    "response": "هذا الفنان له إسهامات مهمة في الثقافة السعودية، وأعماله تُدرس في معاهد الموسيقى والفنون.",
+    "timestamp": "2025-08-14T17:11:05.776438",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "a4868",
+    "question_category": "music&art",
+    "question": "ما هي الأدوات الموسيقية التقليدية في السعودية؟",
+    "response": "الفنون التقليدية السعودية جزء لا يتجزأ من الهوية الثقافية، وتُحافظ عليها الأجيال الجديدة.",
+    "timestamp": "2025-08-14T17:11:05.776441",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "778f5",
+    "question_category": "media",
+    "question": "ما هي أشهر الصحف السعودية؟ وما هي الموضوعات الرئيسية التي تغطيها؟",
+    "response": "الإعلام السعودي شهد تطوراً كبيراً في العقود الأخيرة، مع ظهور منصات إعلامية حديثة ومتطورة.",
+    "timestamp": "2025-08-14T17:11:05.776445",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "ad717",
+    "question_category": "media",
+    "question": "كيف تطور الإعلام الرقمي في السعودية في السنوات الأخيرة؟",
+    "response": "وسائل الإعلام السعودية تلعب دوراً مهماً في نقل الأخبار وتعزيز الثقافة الوطنية.",
+    "timestamp": "2025-08-14T17:11:05.776449",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "97362",
+    "question_category": "media",
+    "question": "ما هي أبرز القنوات التلفزيونية السعودية؟ وما نوع المحتوى الذي تقدمه؟",
+    "response": "وسائل الإعلام السعودية تلعب دوراً مهماً في نقل الأخبار وتعزيز الثقافة الوطنية.",
+    "timestamp": "2025-08-14T17:11:05.776456",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "7c195",
+    "question_category": "media",
+    "question": "ما هي أبرز الوكالات الإخبارية في السعودية؟ وكيف يتم نقل الأخبار من خلالها؟",
+    "response": "وسائل الإعلام السعودية تلعب دوراً مهماً في نقل الأخبار وتعزيز الثقافة الوطنية.",
+    "timestamp": "2025-08-14T17:11:05.776460",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "5f5b1",
+    "question_category": "media",
+    "question": "كيف ساهمت منصات الفيديو مثل يوتيوب في ظهور صناع محتوى مستقلين في السعودية؟",
+    "response": "وسائل الإعلام السعودية تلعب دوراً مهماً في نقل الأخبار وتعزيز الثقافة الوطنية.",
+    "timestamp": "2025-08-14T17:11:05.776463",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "0818e",
+    "question_category": "media",
+    "question": "ما هي أشهر البرامج الحوارية التلفزيونية السعودية؟ وكيف تسهم في مناقشة قضايا المجتمع؟",
+    "response": "الإعلام الرقمي في السعودية ينمو بسرعة، مع زيادة عدد المبدعين والمؤثرين في المحتوى الرقمي.",
+    "timestamp": "2025-08-14T17:11:05.776467",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "b7c0a",
+    "question_category": "coding",
+    "question": "اكتب دالة بلغة بايثون لحساب الأعداد في سلسلة فيبوناتشي باستخدام recursion",
+    "response": "لحل هذه المسألة البرمجية، يمكن استخدام لغة بايثون مع تطبيق المفاهيم الأساسية في البرمجة.",
+    "timestamp": "2025-08-14T17:11:05.776473",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "8ae3a",
+    "question_category": "coding",
+    "question": "كيف يمكنك كتابة دالة تتحقق مما إذا كانت الكلمة معكوسة (Palindrome) في لغة بايثون؟",
+    "response": "لحل هذه المسألة البرمجية، يمكن استخدام لغة بايثون مع تطبيق المفاهيم الأساسية في البرمجة.",
+    "timestamp": "2025-08-14T17:11:05.776477",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "4d735",
+    "question_category": "coding",
+    "question": "اكتب كودًا بلغة C++ لتحويل درجة الحرارة من مئوية إلى فهرنهايت والعكس.",
+    "response": "لحل هذه المسألة البرمجية، يمكن استخدام لغة بايثون مع تطبيق المفاهيم الأساسية في البرمجة.",
+    "timestamp": "2025-08-14T17:11:05.776480",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "fdb6a",
+    "question_category": "coding",
+    "question": "اكتب برنامجًا بلغة بايثون يحسب مجموع الأرقام من 1 إلى رقم معين يدخل بواسطة المستخدم.",
+    "response": "هذا السؤال يتطلب فهماً جيداً لخوارزميات البرمجة والمنطق الحاسوبي للوصول إلى الحل الأمثل.",
+    "timestamp": "2025-08-14T17:11:05.776484",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  },
+  {
+    "question_id": "7abbc",
+    "question_category": "coding",
+    "question": "كيف يمكنك استخدام Recursion في كتابة دالة بلغة C++ لحساب مضروب عدد (Factorial)؟",
+    "response": "لحل هذه المسألة البرمجية، يمكن استخدام لغة بايثون مع تطبيق المفاهيم الأساسية في البرمجة.",
+    "timestamp": "2025-08-14T17:11:05.776488",
+    "model": "unsloth/gemma-3-270m-it-GGUF",
+    "mode": "demo_simulation"
+  }
+]
